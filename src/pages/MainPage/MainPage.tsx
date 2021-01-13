@@ -1,5 +1,5 @@
 import React from 'react';
-import MainHeader from 'components/common/MainHeader';
+import MainHeader from 'components/MainHeader';
 import MainSlider from 'components/MainSlider';
 
 function MainPage() {
