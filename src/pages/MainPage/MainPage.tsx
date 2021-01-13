@@ -1,10 +1,12 @@
 import React from 'react';
 import MainHeader from 'components/common/MainHeader';
+import MainSlider from 'components/MainSlider';
 
 function MainPage() {
     return (
         <div>
             <MainHeader />
+            <MainSlider />
         </div>
     )
 }
