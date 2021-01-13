@@ -1,14 +1,14 @@
 import * as React from 'react';
 
 // css
-import './Header.scss';
-import logoImg from '../../asset/logo_crimsoned.svg';
-import logoText from '../../asset/logo_text.svg';
+import './MainHeader.scss';
+import logoImg from 'asset/logo_crimsoned.svg';
+import logoText from 'asset/logo_text.svg';
 
 // i18n
 import { useTranslation } from "react-i18next";
 
-function Header() {
+function MainHeader() {
     const { t } = useTranslation();
 
     return (
@@ -59,4 +59,4 @@ function Header() {
     )
 }
 
-export default Header;
+export default MainHeader;
